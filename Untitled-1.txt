@@ -1,0 +1,70 @@
+{
+  "workbench.startupEditor": "none",
+
+  "files.autoSave": "onFocusChange",
+
+  // Настройки Prettier
+  "prettier.tabWidth": 2,
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "all",
+  "prettier.semi": true,
+  "prettier.bracketSameLine": true,
+  "prettier.printWidth": 100,
+
+  // Настройки ESLint
+
+  "files.exclude": {
+    "**/.idea": true
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.tslint": true,
+    "source.fixAll.stylelint": true,
+    "source.fixAll.eslint": true
+  },
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "editor.minimap.maxColumn": 80,
+  "editor.mouseWheelZoom": true,
+  "editor.tabCompletion": "on",
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "eslint.format.enable": true,
+  "editor.wordWrap": "on",
+  "[scss]": {
+    "editor.defaultFormatter": "sibiraj-s.vscode-scss-formatter"
+  },
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": null,
+    "Command Prompt": null,
+    "Git Bash": {
+      "source": "Git Bash",
+      "path": ["C:\\Program Files\\Git\\bin\\bash.exe"],
+      "icon": "terminal-bash"
+    }
+  },
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+  
+  "explorer.confirmDelete": false,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "git.autofetch": true,
+  "terminal.integrated.allowChords": false,
+  "terminal.integrated.autoReplies": {
+  
+  },
+  "tabnine.experimentalAutoImports": true,
+  "workbench.iconTheme": "vscode-icons"
+  
+}
